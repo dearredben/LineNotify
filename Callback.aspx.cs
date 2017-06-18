@@ -34,7 +34,7 @@ namespace GooLuck_LineNotify
 
             //從Code取回toke
             var token = Utility.GetToeknFromCode(code,
-                "Fclient_id",  //TODO:自己的 client_id
+                "client_id",  //TODO:自己的 client_id
                 "client_secret", //TODO:自己的 client_secret
                 callbackUrl);
             //測試
